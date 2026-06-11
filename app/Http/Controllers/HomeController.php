@@ -1,9 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
-//use App\Models\Slide;
-//use App\Models\Dealer;
 use App\Models\City;
 use App\Models\Dealer;
 use Illuminate\View\View;
