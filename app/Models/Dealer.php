@@ -10,8 +10,8 @@ class Dealer extends Model
     protected $fillable = [
         'city_id',
         'address',
-        'latitude',
-        'longitude',
+//        'latitude',
+//        'longitude',
         'name',
         'contact',
         'phone',

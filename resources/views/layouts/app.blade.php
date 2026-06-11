@@ -23,16 +23,19 @@
     ])
 </head>
 <body class="bg-neutral-950">
-    <div class="w-full bg-green-950 border-b-2 border-green-800 absolute z-50">
-        <div class="max-w-7xl mx-auto py-5">
-            <div class="flex flex-col md:flex-row items-center justify-between">
-                <div class="flex flex-col md:flex-row items-center justify-center">
-                    <img class="w-20 ml-0 mr-0 md:ml-4 md:mr-3 mt-3 md:mt-0" src="{{ asset('storage/images/logo.svg') }}"/>
-                    <p class="text-center md:text-left text-2xl leading-6 text-white font-semibold pt-3 md:pt-0">- дилеры</p>
-                </div>
-            </div>
+    <div class="w-full bg-green-950 opacity-80 border-b-2 border-green-500 absolute z-50 p-2">
+        <div class="flex items-center justify-start">
+            <button id="hamburger" class="p-2 ml-3 rounded-md border border-white text-white hover:text-green-500 hover:border-green-500 focus:border-green-500 focus:bg-green-900 focus:text-green-500 cursor-pointer">
+                <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                    <path :class="{'hidden': open, 'inline-flex': ! open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    <path :class="{'hidden': ! open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <img id="logo" class="w-20 ml-4 cursor-pointer hover:opacity-55" src="{{ asset('storage/images/logo.svg') }}"/>
         </div>
     </div>
+
+    <div id="menu" class="absolute rounded-xl w-full mt-16 ml-0 mr-1 md:block md:w-auto md:mt-20 md:ml-3 px-7 py-5 bg-green-950 border-2 opacity-80 border-green-500 text-white z-50"></div>
 
     <!-- Page Content -->
     <main>

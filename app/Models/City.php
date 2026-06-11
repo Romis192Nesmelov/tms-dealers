@@ -11,6 +11,6 @@ class City extends Model
 
     public function dealers(): HasMany
     {
-        return $this->hasMany(Dealer::class);
+        return $this->hasMany(Dealer::class)->where('active',1);
     }
 }

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 //use App\Models\Slide;
 //use App\Models\Dealer;
+use App\Models\City;
 use App\Models\Dealer;
 use Illuminate\View\View;
 
@@ -15,7 +16,8 @@ class HomeController extends Controller
     public function __invoke(): View
     {
         return view('home', [
-            'dealers' => Dealer::query()->with('city')->where('active',1)->get()
+            'cities' => City::query()->with('dealers')->orderBy('name')->get(),
+            'countDealers' => Dealer::query()->where('active',1)->count()
         ]);
     }
 }
