@@ -27,8 +27,6 @@ export default defineConfig({
                 'resources/js/helper.js',
                 'resources/js/main.js',
 
-                'resources/js/admin/jquery.js',
-                'resources/js/admin/tools.js',
                 'resources/js/admin/bootstrap.min.js',
                 'resources/js/admin/styling/uniform.min.js',
                 'resources/js/admin/styling/switchery.min.js',

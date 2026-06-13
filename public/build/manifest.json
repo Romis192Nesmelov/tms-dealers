@@ -51,14 +51,190 @@
     "file": "assets/instrument-sans-600-normal-DMks36a2.woff",
     "src": "_instrument-sans-600-normal-DMks36a2.woff"
   },
+  "resources/css/admin/admin.css": {
+    "file": "assets/admin-CzFKkH3a.css",
+    "name": "admin",
+    "names": [
+      "admin.css"
+    ],
+    "src": "resources/css/admin/admin.css",
+    "isEntry": true
+  },
+  "resources/css/admin/bootstrap-switch.css": {
+    "file": "assets/bootstrap-switch-BMon5Koe.css",
+    "name": "bootstrap-switch",
+    "names": [
+      "bootstrap-switch.css"
+    ],
+    "src": "resources/css/admin/bootstrap-switch.css",
+    "isEntry": true
+  },
+  "resources/css/admin/bootstrap-toggle.min.css": {
+    "file": "assets/bootstrap-toggle-Cv-FTtU-.css",
+    "name": "bootstrap-toggle.min",
+    "names": [
+      "bootstrap-toggle.css"
+    ],
+    "src": "resources/css/admin/bootstrap-toggle.min.css",
+    "isEntry": true
+  },
+  "resources/css/admin/bootstrap.css": {
+    "file": "assets/bootstrap-D-ebely2.css",
+    "name": "bootstrap",
+    "names": [
+      "bootstrap.css"
+    ],
+    "src": "resources/css/admin/bootstrap.css",
+    "isEntry": true,
+    "assets": [
+      "assets/glyphicons-halflings-regular-BUJKDMgK.eot",
+      "assets/glyphicons-halflings-regular-DzqM6ju8.woff2",
+      "assets/glyphicons-halflings-regular-BKjkU69z.woff",
+      "assets/glyphicons-halflings-regular-DrwTMapi.ttf",
+      "assets/glyphicons-halflings-regular-CSehLiBc.svg"
+    ]
+  },
+  "resources/css/admin/colors.css": {
+    "file": "assets/colors-BuViNrfM.css",
+    "name": "colors",
+    "names": [
+      "colors.css"
+    ],
+    "src": "resources/css/admin/colors.css",
+    "isEntry": true
+  },
+  "resources/css/admin/components.css": {
+    "file": "assets/components-jvC8O7W4.css",
+    "name": "components",
+    "names": [
+      "components.css"
+    ],
+    "src": "resources/css/admin/components.css",
+    "isEntry": true
+  },
+  "resources/css/admin/core.css": {
+    "file": "assets/core-XhR1-xWP.css",
+    "name": "core",
+    "names": [
+      "core.css"
+    ],
+    "src": "resources/css/admin/core.css",
+    "isEntry": true,
+    "assets": [
+      "assets/glyphicons-halflings-regular-BUJKDMgK.eot",
+      "assets/glyphicons-halflings-regular-DzqM6ju8.woff2",
+      "assets/glyphicons-halflings-regular-BKjkU69z.woff",
+      "assets/glyphicons-halflings-regular-DrwTMapi.ttf",
+      "assets/glyphicons-halflings-regular-CSehLiBc.svg"
+    ]
+  },
+  "resources/css/admin/loader.css": {
+    "file": "assets/loader-C8PrRN8i.css",
+    "name": "loader",
+    "names": [
+      "loader.css"
+    ],
+    "src": "resources/css/admin/loader.css",
+    "isEntry": true,
+    "assets": [
+      "assets/preloader-C3Tjf9jM.gif"
+    ]
+  },
   "resources/css/app.css": {
-    "file": "assets/app-BOxUZTGG.css",
+    "file": "assets/app-Dgja3URD.css",
     "name": "app",
     "names": [
       "app.css"
     ],
     "src": "resources/css/app.css",
     "isEntry": true
+  },
+  "resources/css/icons/fontawesome/fonts/fontawesome-webfont.eot": {
+    "file": "assets/fontawesome-webfont-C7hRAymh.eot",
+    "src": "resources/css/icons/fontawesome/fonts/fontawesome-webfont.eot"
+  },
+  "resources/css/icons/fontawesome/fonts/fontawesome-webfont.svg": {
+    "file": "assets/fontawesome-webfont-BKBKvXmA.svg",
+    "src": "resources/css/icons/fontawesome/fonts/fontawesome-webfont.svg"
+  },
+  "resources/css/icons/fontawesome/fonts/fontawesome-webfont.ttf": {
+    "file": "assets/fontawesome-webfont-DYfWyl7r.ttf",
+    "src": "resources/css/icons/fontawesome/fonts/fontawesome-webfont.ttf"
+  },
+  "resources/css/icons/fontawesome/fonts/fontawesome-webfont.woff": {
+    "file": "assets/fontawesome-webfont-D1RX9NVh.woff",
+    "src": "resources/css/icons/fontawesome/fonts/fontawesome-webfont.woff"
+  },
+  "resources/css/icons/fontawesome/fonts/fontawesome-webfont.woff2": {
+    "file": "assets/fontawesome-webfont-BBOCxDGX.woff2",
+    "src": "resources/css/icons/fontawesome/fonts/fontawesome-webfont.woff2"
+  },
+  "resources/css/icons/fontawesome/styles.min.css": {
+    "file": "assets/styles-BfvtV2fT.css",
+    "name": "styles.min",
+    "names": [
+      "styles.css"
+    ],
+    "src": "resources/css/icons/fontawesome/styles.min.css",
+    "isEntry": true,
+    "assets": [
+      "assets/fontawesome-webfont-C7hRAymh.eot",
+      "assets/fontawesome-webfont-BBOCxDGX.woff2",
+      "assets/fontawesome-webfont-D1RX9NVh.woff",
+      "assets/fontawesome-webfont-DYfWyl7r.ttf",
+      "assets/fontawesome-webfont-BKBKvXmA.svg"
+    ]
+  },
+  "resources/css/icons/glyphicons/glyphicons-halflings-regular.eot": {
+    "file": "assets/glyphicons-halflings-regular-BUJKDMgK.eot",
+    "src": "resources/css/icons/glyphicons/glyphicons-halflings-regular.eot"
+  },
+  "resources/css/icons/glyphicons/glyphicons-halflings-regular.svg": {
+    "file": "assets/glyphicons-halflings-regular-CSehLiBc.svg",
+    "src": "resources/css/icons/glyphicons/glyphicons-halflings-regular.svg"
+  },
+  "resources/css/icons/glyphicons/glyphicons-halflings-regular.ttf": {
+    "file": "assets/glyphicons-halflings-regular-DrwTMapi.ttf",
+    "src": "resources/css/icons/glyphicons/glyphicons-halflings-regular.ttf"
+  },
+  "resources/css/icons/glyphicons/glyphicons-halflings-regular.woff": {
+    "file": "assets/glyphicons-halflings-regular-BKjkU69z.woff",
+    "src": "resources/css/icons/glyphicons/glyphicons-halflings-regular.woff"
+  },
+  "resources/css/icons/glyphicons/glyphicons-halflings-regular.woff2": {
+    "file": "assets/glyphicons-halflings-regular-DzqM6ju8.woff2",
+    "src": "resources/css/icons/glyphicons/glyphicons-halflings-regular.woff2"
+  },
+  "resources/css/icons/icomoon/fonts/icomoon.eot": {
+    "file": "assets/icomoon-RabqmaB2.eot",
+    "src": "resources/css/icons/icomoon/fonts/icomoon.eot"
+  },
+  "resources/css/icons/icomoon/fonts/icomoon.svg": {
+    "file": "assets/icomoon-Bnm_VJcc.svg",
+    "src": "resources/css/icons/icomoon/fonts/icomoon.svg"
+  },
+  "resources/css/icons/icomoon/fonts/icomoon.ttf": {
+    "file": "assets/icomoon-B8MqBWp-.ttf",
+    "src": "resources/css/icons/icomoon/fonts/icomoon.ttf"
+  },
+  "resources/css/icons/icomoon/fonts/icomoon.woff": {
+    "file": "assets/icomoon-CPwfPeKl.woff",
+    "src": "resources/css/icons/icomoon/fonts/icomoon.woff"
+  },
+  "resources/css/icons/icomoon/styles.css": {
+    "file": "assets/styles-BLHXQ-s-.css",
+    "name": "styles",
+    "names": [
+      "styles.css"
+    ],
+    "src": "resources/css/icons/icomoon/styles.css",
+    "isEntry": true,
+    "assets": [
+      "assets/icomoon-RabqmaB2.eot",
+      "assets/icomoon-CPwfPeKl.woff",
+      "assets/icomoon-B8MqBWp-.ttf",
+      "assets/icomoon-Bnm_VJcc.svg"
+    ]
   },
   "resources/css/main.css": {
     "file": "assets/main-CFJA8W1M.css",
@@ -69,16 +245,74 @@
     "src": "resources/css/main.css",
     "isEntry": true
   },
+  "resources/js/admin/admin.js": {
+    "file": "assets/admin-Df0dgsDk.js",
+    "name": "admin",
+    "src": "resources/js/admin/admin.js",
+    "isEntry": true
+  },
+  "resources/js/admin/app.js": {
+    "file": "assets/app-DBZUMsyY.js",
+    "name": "app",
+    "src": "resources/js/admin/app.js",
+    "isEntry": true
+  },
+  "resources/js/admin/bootstrap.min.js": {
+    "file": "assets/bootstrap.min-Km-Xcupp.js",
+    "name": "bootstrap.min",
+    "src": "resources/js/admin/bootstrap.min.js",
+    "isEntry": true
+  },
+  "resources/js/admin/login.js": {
+    "file": "assets/login-Wg4QJWvA.js",
+    "name": "login",
+    "src": "resources/js/admin/login.js",
+    "isEntry": true
+  },
+  "resources/js/admin/styling/bootstrap-switch.js": {
+    "file": "assets/bootstrap-switch-CQ-saJd_.js",
+    "name": "bootstrap-switch",
+    "src": "resources/js/admin/styling/bootstrap-switch.js",
+    "isEntry": true
+  },
+  "resources/js/admin/styling/bootstrap-toggle.min.js": {
+    "file": "assets/bootstrap-toggle.min-DgBs1wDO.js",
+    "name": "bootstrap-toggle.min",
+    "src": "resources/js/admin/styling/bootstrap-toggle.min.js",
+    "isEntry": true
+  },
+  "resources/js/admin/styling/switchery.min.js": {
+    "file": "assets/switchery.min-BwKl9ljc.js",
+    "name": "switchery.min",
+    "src": "resources/js/admin/styling/switchery.min.js",
+    "isEntry": true
+  },
+  "resources/js/admin/styling/uniform.min.js": {
+    "file": "assets/uniform.min-CK9ehtOk.js",
+    "name": "uniform.min",
+    "src": "resources/js/admin/styling/uniform.min.js",
+    "isEntry": true
+  },
   "resources/js/app.js": {
     "file": "assets/app-BvRk9kiK.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
   },
+  "resources/js/helper.js": {
+    "file": "assets/helper-ByQQk2w2.js",
+    "name": "helper",
+    "src": "resources/js/helper.js",
+    "isEntry": true
+  },
   "resources/js/main.js": {
-    "file": "assets/main-C8pJ1AT3.js",
+    "file": "assets/main-CXBQ4fkn.js",
     "name": "main",
     "src": "resources/js/main.js",
     "isEntry": true
+  },
+  "storage/app/public/images/preloader.gif": {
+    "file": "assets/preloader-C3Tjf9jM.gif",
+    "src": "storage/app/public/images/preloader.gif"
   }
 }
