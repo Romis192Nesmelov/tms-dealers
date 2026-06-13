@@ -26,4 +26,10 @@ class AuthController extends Controller
             'email' => trans('auth.failed'),'password' => trans('auth.failed')
         ])->withInput();
     }
+
+    public function logout(): RedirectResponse
+    {
+        Auth::logout();
+        return redirect(route('auth.login'));
+    }
 }

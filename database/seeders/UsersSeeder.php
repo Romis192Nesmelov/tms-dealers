@@ -17,10 +17,12 @@ class UsersSeeder extends Seeder
             [
                 'email' => 'romis.nesmelov@gmail.com',
                 'password' => bcrypt('apg192'),
+                'is_admin' => 1
             ],
             [
                 'email' => 'danila.solodovnikov@titan-ms.ru',
                 'password' => bcrypt('danila'),
+                'is_admin' => 1
             ],
         ];
 

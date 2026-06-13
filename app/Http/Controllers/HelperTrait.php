@@ -12,6 +12,7 @@ trait HelperTrait
     public string $validationNumeric = 'required|numeric';
     public string $validationString = 'required|min:3|max:191';
     public string $validationText = 'nullable|min:1|max:3000';
+    public string $validationUserId = 'required|integer|exists:users,id';
 
     public $metas = [
         'meta_description' => ['name' => 'description', 'property' => false],
@@ -28,4 +29,9 @@ trait HelperTrait
         'meta_googlebot' => ['name' => 'googlebot', 'property' => false],
         'meta_google_site_verification' => ['name' => 'google-site-verification', 'property' => false],
     ];
+
+    public function saveCompleteMessage(): void
+    {
+        session()->flash('message', trans('content.save_complete'));
+    }
 }

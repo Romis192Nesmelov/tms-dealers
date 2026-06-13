@@ -1,0 +1,38 @@
+<?php
+
+namespace App\Http\Requests\Admin;
+
+use App\Http\Controllers\HelperTrait;
+use Illuminate\Foundation\Http\FormRequest;
+use function request;
+
+class AdminEditCityRequest extends FormRequest
+{
+    use HelperTrait;
+
+    /**
+     * Determine if the user is authorized to make this request.
+     */
+    public function authorize(): bool
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
+     */
+    public function rules(): array
+    {
+        $rules = [
+            'name' => $this->validationString.'|unique:cities,name'
+        ];
+
+        if (request()->has('id')) {
+            $rules['id'] = 'required|integer|exists:cities,id';
+            $rules['name'] .= ','.request('id');
+        }
+        return $rules;
+    }
+}

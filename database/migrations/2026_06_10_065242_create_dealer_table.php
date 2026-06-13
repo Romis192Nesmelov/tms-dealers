@@ -16,8 +16,8 @@ return new class extends Migration
             $table->id();
             $table->foreignIdFor(City::class)->constrained()->cascadeOnUpdate()->cascadeOnDelete();
             $table->string('address');
-//            $table->double('latitude',8, 6);
-//            $table->double('longitude',8, 6);
+            $table->double('latitude',8, 6);
+            $table->double('longitude',8, 6);
             $table->string('name',50);
             $table->string('contact',50);
             $table->string('phone');
