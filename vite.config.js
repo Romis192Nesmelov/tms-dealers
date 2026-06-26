@@ -23,7 +23,6 @@ export default defineConfig({
                 'resources/css/admin/loader.css',
                 'resources/css/admin/admin.css',
 
-                'resources/js/app.js',
                 'resources/js/helper.js',
                 'resources/js/main.js',
 

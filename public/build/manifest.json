@@ -141,7 +141,7 @@
     ]
   },
   "resources/css/app.css": {
-    "file": "assets/app-Dgja3URD.css",
+    "file": "assets/app-CJcn_rL7.css",
     "name": "app",
     "names": [
       "app.css"
@@ -293,20 +293,14 @@
     "src": "resources/js/admin/styling/uniform.min.js",
     "isEntry": true
   },
-  "resources/js/app.js": {
-    "file": "assets/app-BvRk9kiK.js",
-    "name": "app",
-    "src": "resources/js/app.js",
-    "isEntry": true
-  },
   "resources/js/helper.js": {
-    "file": "assets/helper-ByQQk2w2.js",
+    "file": "assets/helper-ChNlAeZb.js",
     "name": "helper",
     "src": "resources/js/helper.js",
     "isEntry": true
   },
   "resources/js/main.js": {
-    "file": "assets/main-CXBQ4fkn.js",
+    "file": "assets/main-DuZGiTIO.js",
     "name": "main",
     "src": "resources/js/main.js",
     "isEntry": true

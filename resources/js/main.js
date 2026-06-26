@@ -65,7 +65,8 @@ $(document).ready(function() {
                     point.contact,
                     point.phone,
                     point.mail,
-                    point.site
+                    point.site,
+                    point.note
                 );
             });
         });

@@ -7,7 +7,7 @@ window.initMap = () => {
     return myMap;
 }
 
-window.addPointsToArr = (placemarks, coordinates, k, pointName, pointAddress, pointContact, pointPhone, pointMail, pointSite) => {
+window.addPointsToArr = (placemarks, coordinates, k, pointName, pointAddress, pointContact, pointPhone, pointMail, pointSite, pointNote) => {
     placemarks.push(
         new ymaps.Placemark(coordinates, {
             placemarkId: k,
@@ -16,7 +16,8 @@ window.addPointsToArr = (placemarks, coordinates, k, pointName, pointAddress, po
                 '<b class="text-green-800">Конт. лицо/лица:</b> ' + pointContact + '<br/>' +
                 '<b class="text-green-800">Тел.:</b> ' + getPhones(pointPhone) + '<br/>' +
                 '<b class="text-green-800">E-mail:</b> ' + getMails(pointMail) +
-                getSite(pointSite)
+                getSite(pointSite) +
+                getNote(pointNote)
         }, {
             preset: 'islands#darkGreenCircleDotIcon'
         })
@@ -85,9 +86,10 @@ window.definePoint = (latitudeInput,longitudeInput) => {
         pointContact = $('input[name=contact]').val(),
         pointPhone = $('input[name=phone]').val(),
         pointMail = $('input[name=mail]').val(),
-        pointSite = $('input[name=site]').val();
+        pointSite = $('input[name=site]').val(),
+        pointNote = $('input[name=note]').val();
 
-    let placemarks = window.addPointsToArr([], coordinates, 0, pointName, pointAddress, pointContact, pointPhone, pointMail, pointSite),
+    let placemarks = window.addPointsToArr([], coordinates, 0, pointName, pointAddress, pointContact, pointPhone, pointMail, pointSite, pointNote),
         clusterer = window.addPointsToMap(myMap, placemarks);
 
     window.zoomToMap(myMap, clusterer.getBounds());
@@ -104,7 +106,7 @@ window.getCoordinatesByAddress = (pointAddress, geo_api_key, latitudeInput, long
     });
 }
 
-let getPhones = (phones) => {
+const getPhones = (phones) => {
     let arrPhones = phones.split(';'),
         htmlStr = '';
 
@@ -114,7 +116,7 @@ let getPhones = (phones) => {
     return htmlStr;
 }
 
-let getMails = (mails) => {
+const getMails = (mails) => {
     let arrMails = mails.split(';'),
         htmlStr = '';
 
@@ -124,10 +126,14 @@ let getMails = (mails) => {
     return htmlStr;
 }
 
-let getSite = (site) => {
+const getSite = (site) => {
     return site ? '<br/><b class="text-green-800">Сайт:</b> <a class="underline text-green-800 hover:text-green-500" href="' + site + '">' + site + '</a>' : '';
 }
 
-let getHref = (prefix, stringHref, stringShow, delimiter) => {
+const getNote = (note) => {
+    return note ? '<p class="text-gray-800 italic my-2"><b class="text-green-800">Примечание:</b> ' + note + '</p>' : '';
+}
+
+const getHref = (prefix, stringHref, stringShow, delimiter) => {
     return '<a class="underline text-green-800 hover:text-green-500" href="' + prefix + ':' + stringHref + '">' + stringShow + '</a>' + delimiter;
 }

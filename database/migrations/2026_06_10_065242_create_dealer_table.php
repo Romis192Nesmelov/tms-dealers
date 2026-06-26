@@ -22,7 +22,8 @@ return new class extends Migration
             $table->string('contact',50);
             $table->string('phone');
             $table->string('mail');
-            $table->string('site')->nullable();
+            $table->string('site',100)->nullable();
+            $table->string('note',100)->nullable();
             $table->tinyInteger('active');
             $table->timestamps();
         });

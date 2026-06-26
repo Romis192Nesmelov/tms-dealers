@@ -17,6 +17,7 @@ class Dealer extends Model
         'phone',
         'mail',
         'site',
+        'note',
         'active'
     ];
 

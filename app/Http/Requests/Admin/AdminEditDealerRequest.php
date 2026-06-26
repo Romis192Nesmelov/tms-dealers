@@ -33,7 +33,8 @@ class AdminEditDealerRequest extends FormRequest
             'contact' => $this->validationString,
             'phone' => $this->validationString,
             'mail' => $this->validationString,
-            'site' => 'nullable|min:1|max:191',
+            'site' => 'nullable|min:1|max:100',
+            'note' => 'nullable|min:1|max:100',
             'active' => 'integer|min:0|max:1',
             'city_id' => 'required|integer|exists:cities,id'
         ];

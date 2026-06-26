@@ -75,12 +75,19 @@
                                     'label' => __('Site'),
                                     'name' => 'site',
                                     'type' => 'text',
-                                    'max' => 191,
+                                    'max' => 100,
                                     'placeholder' => __('Site'),
                                     'value' => isset($dealer) ? $dealer->site : ''
                                 ])
+                                @include('admin.blocks.input_block', [
+                                    'label' => __('Note'),
+                                    'name' => 'note',
+                                    'type' => 'text',
+                                    'max' => 100,
+                                    'placeholder' => __('Note'),
+                                    'value' => isset($dealer) ? $dealer->note : ''
+                                ])
                             </div>
-
                         </div>
                     </div>
                 </div>

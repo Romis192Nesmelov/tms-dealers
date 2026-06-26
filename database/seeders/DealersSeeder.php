@@ -24,6 +24,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Михаил Дмитриевич',
                     'phone' => '+7(988)171-11-44',
                     'mail' => 'kenner30rus@mail.ru',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ],
                 [
@@ -34,6 +35,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Обухов Олег Николаевич',
                     'phone' => '+7(927)079-81-83',
                     'mail' => 'director-ast@mail.ru',
+                    'note' => 'Какое-то там примечание',
                     'site' => 'https://obuhovgroup.ru/afisha',
                     'active' => 1
                 ]
@@ -47,6 +49,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Журавлева Юлия Николаевна; Калина Ольга',
                     'phone' => '+7(3852)56-78-95; +7(913)271-02-63',
                     'mail' => 'snab@upgrade22.com',
+                    'note' => 'Какое-то там примечание',
                     'site' => 'https://upgrade22.com/',
                     'active' => 1
                 ],
@@ -60,6 +63,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Будник Максим Александрович',
                     'phone' => '+7(4722)23-17-17 (доб. 111)',
                     'mail' => 'm.budnik@termo31.ru; a.ospischev@termo31.ru',
+                    'note' => 'Какое-то там примечание',
                     'site' => 'https://www.termomir31.ru/',
                     'active' => 1
                 ]
@@ -73,6 +77,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Алешин Алексей',
                     'phone' => '+7(423)2-333-077 (доб. 1032)',
                     'mail' => 'aaleshin@aquadom.info; vkislova@aquadom.info',
+                    'note' => 'Какое-то там примечание',
                     'site' => 'https://aquadom.info/',
                     'active' => 1
                 ]
@@ -86,6 +91,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Айдаров Алан Витальевич',
                     'phone' => '+7(988)832-11-18',
                     'mail' => 'kvant.elektro@yandex.ru; aydarti@mail.ru',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ]
             ],
@@ -98,6 +104,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Абдаев Арби Султанович',
                     'phone' => '+7(928)475-20-77 ',
                     'mail' => 'teplostroy095@mail.ru',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ]
             ],
@@ -110,6 +117,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Самигуллин Ленар Радикович',
                     'phone' => '+7(987)061-64-61',
                     'mail' => 'lenar@teploformatopt.ru',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ],
                 [
@@ -120,6 +128,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Самусик Артем Валерьевич',
                     'phone' => '+7(960)036-65-10',
                     'mail' => 'thermostudiokazan@gmail.com',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ]
             ],
@@ -132,6 +141,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Кравцов Эдуард Сергеевич',
                     'phone' => '+7(909)46-47-947; +7(861)248-01-06',
                     'mail' => 'kaskad-yug@bk.ru',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ]
             ],
@@ -145,6 +155,7 @@ class DealersSeeder extends Seeder
                     'phone' => '+7(978)777-82-16',
                     'mail' => 'snab@aster-m.su',
                     'site' => 'https://aster24.ru/',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ]
             ],
@@ -158,6 +169,7 @@ class DealersSeeder extends Seeder
                     'phone' => '+7(965)373-80-82',
                     'mail' => 'kuryshov@versusgroup.ru',
                     'site' => 'https://versusgroup.ru/',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ]
             ],
@@ -170,6 +182,7 @@ class DealersSeeder extends Seeder
                     'contact' => 'Лобанов Вадим Викторович',
                     'phone' => '+7(8352)325-326; +7(8352)44-88-77',
                     'mail' => 'log133@boilerberg.ru',
+                    'note' => 'Какое-то там примечание',
                     'active' => 1
                 ]
             ]
